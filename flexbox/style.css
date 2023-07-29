@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    /* width: 80%;
+    margin: 0 auto; */
+    min-height: 10vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.hero{
+    min-height: 90vh;
+    background-image: url('/pexels-hasan-albari-1229861.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2{
+    text-align: center;
+    margin: 2rem;
+}
+
+.hero button{
+    padding: 1rem 2rem;
+    background: rgb(166, 207, 221);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.intro img{
+  width: 100%;
+}
+
+.intro-img{
+    flex: 1 1 30rem;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 30rem;
+  background: rgb(238, 230, 230);
+}
+
+.intro-text h2{
+    margin: 2rem;
+}
+
+.intro-text p{
+    margin: 1rem;
+}
+
+
